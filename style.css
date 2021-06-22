@@ -35,7 +35,7 @@ body{
   
 }
 .modal .modal-header{
-    display:flex;
+    /* display:flex; */
     padding: 10px 15px;
     font-size:xx-large;
     align-items: center;
@@ -71,16 +71,15 @@ body{
 
 
 .modal2{
-    display: block; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 10; /* Sit on top */
+    display: block; 
+  position: fixed; 
+  z-index: 10; 
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
  width: 500px;
-  overflow: auto; /* Enable scroll if needed */
-  background-color:aqua; /* Fallback color */
-  
+  overflow: auto; 
+  background-color:aqua;   
   border-radius: 10px;
   
 }
